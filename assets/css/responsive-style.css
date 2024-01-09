@@ -1,0 +1,133 @@
+.visible-xs{
+	display: none !important;
+}
+.hidden-xs{
+	display: block !important;
+}
+@media(max-width: 767px){
+	.visible-xs{
+		display: block !important;
+	}
+	.hidden-xs{
+		display: none !important;
+	}
+}
+@media(max-width: 1440px){
+	html, body{
+		font-size: 14px;
+	}
+}
+@media(max-width: 1366px){
+	html, body{
+		font-size: 13px;
+	}
+}
+@media(max-width: 1200px){
+	html, body{
+		font-size: 12px;
+	}
+}
+@media(max-width: 1024px){
+	html, body{
+		font-size: 10px;
+	}
+}
+@media(max-width: 991px){
+	html, body{
+		font-size: 8px;
+	}
+}
+@media(max-width: 767px){
+	html, body{
+		font-size: 14px;
+	}
+	.container{
+		max-width: 100%;
+	}
+	.nav_section .menu_icon{
+		display: inline-block;
+	}
+	.nav_section .page_title{
+		font-size: 1.15rem;
+		top: 1rem;
+	}
+	.content .padding-right{
+		padding-right: 0;
+	}
+	.main .side_bar{
+	    left: -100rem;
+	    transition: all ease .4s;
+	    -webkit-transition: all ease .4s;
+	    -moz-transition: all ease .4s;
+	    -ms-transition: all ease .4s;
+	    -o-transition: all ease .4s;
+	}
+	.main .side_bar.active{
+		left: 0;
+		position: fixed;
+    	top: 0;
+	}
+	.side_bar .social{
+		position: relative;
+		left: initial;
+		bottom: initial;
+		margin-top: 2rem;
+		width: 100%
+	}
+	.main .content{
+		padding-left: 0;
+	}
+	.content .button_list .btn_green{
+		margin-bottom: 1rem;
+	}
+	.content .club_sm{
+		width: 100%;
+		margin-bottom: 1rem !important;
+	}
+	.club_profile .club_info .btn_green{
+		margin-bottom: 1rem;
+	}
+	.channel_box .input-group{
+		width: 100%;
+	}
+	.club_profile .club_gallery ul li{
+		padding: .5rem 1rem;
+	}
+	.channel_box .channel_img{
+		width: 100%;
+	}
+	.product_box .product_inner{
+		height: 50rem;
+	}
+	.footer .container{
+		padding-left: 0
+	}
+	.footer .text-right{
+		text-align: center !important;
+	}
+}
+@media(max-width: 576px){
+	html,body{
+		font-size: 14px;
+	}
+	.product_box .product_inner .pro_box .bottom_text{
+		padding: .5rem 1rem;
+	}
+	.product_box .product_inner .pro_box .bottom_text a{
+		font-size: 1rem;
+	}
+	.search_section{
+		display: inline-block;
+	}
+	.search_section .search_box{
+		margin-top: 2rem;
+	}
+	.search_section .menu_box{
+		height: 100%;
+		width: 60%;
+		padding-bottom: 2rem;
+	}
+	.chat_box .chat_track .single_chat .user1{
+		max-width: 70%;
+	}
+}
